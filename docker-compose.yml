@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  t35t:
+    image: jmusicbot-t35t:latest
+    container_name: t35t
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
